@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.form{
+  margin-top: 150px;
+  text-align: start;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(210, 246, 243);
+  box-shadow: 3px 3px 5px;
+}
+.form *{
+  padding: 4px;
+  border-radius: 5px;
+}
+.user{
+  background-image: url("./assets/user-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: top;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.email{
+  background-image: url("./assets/email-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: top;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.password{
+  background-image: url("./assets/lock-svgrepo-com.svg") ;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: top;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.birthday{
+  background-image: url("./assets/birthday-cake-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: top;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.bottom-buton{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.create{
+  width: 85%;
+  background-color: rgb(120, 234, 120);
+}
+.create:hover{
+  color:white;
+  background-color: green;
+}
+.clear{
+  background-image: url("./assets/can-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: rgb(236, 138, 138);
+}
+.clear:hover{
+  background-color: red;
+  color: white;
+}
+.show{
+  background-image: url("/src/assets/show-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  padding: 12px 12px;
+  border-radius: 5px;
+  margin-left: 5px;
+
+}
+.show:hover{
+  background-color: rgb(133, 196, 207);
+}
+
+.form input{
+  height: 20px;
+  border: 1px solid gray;
+}
+button{
+  border: 1px solid gray;
+  transition: 0.4s;
+}
+
+.edit{
+  background-image: url("./assets/edit-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: rgb(120, 234, 120);
+  margin-right: 10px;
+}
+.edit:hover{
+  background-color: green;
+}
+.card{
+  border: 3px solid rgb(102, 102, 102);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px;
+  transition: 0.3s;
+}
+.card:hover{
+  background-color: rgb(210, 246, 243);
+  box-shadow: 2px 2px 5px;
+}
